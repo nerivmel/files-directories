@@ -1,0 +1,14 @@
+Stat: Escriba su propia versión del comando stat, la cual simplemente 
+invoca la llamada del sistema stat() en un archivo o directorio.
+ Imprima el tamaño del archivo, el número de bloques asignado, 
+contador de referencias (links), etc. 
+¿Qué significa el contador de referencias (link count) de un directorio?,
+¿cómo cambia el número de entradas en el directorio? 
+Interfaces útiles: stat(), naturalmente.
+
+R/¿Qué significa el contador de referencias (link count) de un directorio?
+SIGNIFICA EL NUMERO DE ACCESOS DIRECTOS GENERADOS O EXISTENTES 
+PARA DICHO DIRECTORIO
+
+R/¿cómo cambia el número de entradas en el directorio? 
+PARA CAMBIAR EL NUMER0 DE ENTRADAS SOLO ES CAMBIAR LA CARPETA DESDE LA QUE LLAMAMOS EL ARCHIVO
